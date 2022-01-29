@@ -9,12 +9,12 @@
 .logonav{
     height: 8vh;
 }
-.numMenu{
+.phone-number{
     font-family: "Montserrat";
     font-size: 20px;
     font-weight: 600;
 }
-.lien{
+.link{
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 22px;
@@ -22,6 +22,11 @@
     text-decoration: none;
     color: black;
 }
-.lien:hover{
+.link:hover{
     text-shadow: 1px 1px 0px rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 800px){
+    .navigation{
+        flex-direction: column;
+    }
 }
